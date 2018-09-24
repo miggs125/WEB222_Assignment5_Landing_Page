@@ -1,0 +1,105 @@
+/*remove default formatting*/
+body{
+    padding: 0;
+    margin: 0;    
+}
+/*format logo on side bar*/
+#logo{
+    max-height: 9em;
+    border-radius: 100%;
+    margin: 2em 10%;
+    float: left;
+     
+}
+/*main container in body formatting*/
+.container{
+    width: 100%;
+}
+/*formatting for left side bar*/
+#col-1{
+    float: left;
+    width: 12%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgb(245, 147, 0);
+    padding: auto;
+    color: ivory;
+  
+}
+
+#col-2{
+    float: left;
+    width: 88%;
+    position: relative;
+    height: 100%;
+    left: 12%;
+        
+}
+
+#nav-text{
+    width: 100%;
+}
+
+nav{
+    display: block;
+    float: left;
+    
+}
+/*formatting for navgation links*/
+nav ul{
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration:none;
+    color: ivory;
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.2em;
+}
+
+.nav-link a:visited{
+    color: ivory;
+
+}
+/*formatting for left side bar text*/
+#col-1 h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+
+/*formatting for welcome container*/
+#welcome{
+    float: left;
+    width: 100%;
+    height: 18em;
+    background: url(../img/adventure-clouds-country-414081.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 25%;  
+    margin-bottom: 2em;
+    margin-top: 0;
+    padding:0;
+    position: fixed;
+    top: 0;
+}
+
+/*format the heading on the header*/
+#welcome h2{
+    display: block;
+    position:absolute;
+    clear: left;
+    bottom: 20%;
+    left: 10%;
+    font-family: "Permanent Marker", cursive;
+    font-size: 2.5em;
+    color: ivory;
+}
+
+#registration input{
+    float: right;
+
+
+}

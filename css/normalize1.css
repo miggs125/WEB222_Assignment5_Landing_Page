@@ -1,0 +1,257 @@
+/*remove default formatting*/
+/*html{
+    padding:0;
+    margin:0;
+}*/
+
+/*remove default formatting*/
+body{
+    padding: 0;
+    margin: 0;
+    background: url(../img/canoe.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+/*format logo on side bar*/
+#logo{
+    max-height: 9em;
+    border-radius: 100%;
+    margin: 2em 10%;
+    float: left;
+     
+}
+/*main container in body formatting*/
+.container{
+    width: 100%;    
+}
+/*formatting for left side bar*/
+#col-1{
+    float: left;
+    width: 12%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    color: ivory;
+    margin-top: 18em;
+  
+}
+
+/*formatting right side of page*/
+
+#col-2{
+    float: left;
+    width: 65%;
+    position: relative;
+    height: 100%;
+    left: 12%;
+    margin-top: 18em;
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 1em;
+}
+
+#col-2a{
+    float: left;
+    width: 65%;
+    position: absolute;
+    height: 100%;
+    left: 12%;
+    margin-top: 18em;
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 1em;
+    text-align: center;
+}
+
+
+
+
+#col-3{
+    float: right;
+    width: 18%;
+    height: 100%;
+    margin-top: 18em;
+    position: fixed;
+    right: 0;
+    overflow: auto;
+}
+
+#wrapper{
+    color: crimson;
+    width: 80%;
+    position: absolute;
+    margin: 0 2em;
+    background: rgba(0, 0, 0, 0.4);
+    background-size: 25%;
+    height: 100%;
+    overflow: auto;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt;
+    padding: 1em;
+
+}
+
+#nav-text{
+    width: 100%;
+}
+
+
+
+/*formatting for left nav bar*/
+nav{
+    display: block;
+    float: left;
+    
+}
+/*formatting for navgation links*/
+nav ul{
+    list-style-type: none;
+}
+
+.nav-link{
+    text-decoration:none;
+    color: ivory;
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.2em;
+}
+
+.nav-link a:visited{
+    color: ivory;
+
+}
+/*formatting for left side bar text*/
+#col-1 h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+
+/*formatting for welcome container*/
+#welcome{
+    float: left;
+    width: 100%;
+    height: 18em;
+    margin-top: 0;
+    padding:0;
+    position: fixed;
+    z-index: 1000;
+    background: url(../img/canoe.jpg);
+    background-size: 100%;      
+}
+
+/*format the heading on the header*/
+#welcome h2{
+    display: block;
+    position:absolute;
+    clear: left;
+    bottom: 20%;
+    left: 10%;
+    font-family: "Permanent Marker", cursive;
+    font-size: 3em;
+    color: ivory;
+}
+
+/*set formatting for main content*/
+.main-content{
+    text-align: center;
+    font-family: 'Average Sans', sans-serif;
+}
+
+#registration{
+    min-height: 100%;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*increase font on initial letter on sice bar logo*/
+.bigLetter{
+    font-size: 200%;
+}
+
+#courses{
+    margin-bottom: 15px;
+    overflow: auto;
+}
+
+/*set formatting for rock climbing course containers*/
+.course{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+.course-container{
+    width: 70%;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2em;
+    max-height: 25em;
+    overflow: auto;
+    margin: 1em auto; 
+    border-radius: 10%;
+    box-sizing: border-box;  
+
+}
+
+
+/*format moreInfo section */
+
+#moreInfo{
+    margin: 5em auto;
+    margin-bottom: 1em;
+    width: 80%;
+    clear: left;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 2em;
+
+}
+
+
+/*set formatting for all images in course containers*/
+.course-image{
+    width: 20em;
+}
+
+/*formatting for non rock climbing courses*/
+
+footer{
+    height: 5em;
+    width: 100%;
+    background: rgb(0, 7, 12);
+    left: 12%;
+    bottom: 0;
+    color: ivory;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2em;
+}
+
+/*format registration form*/
+
+
+
+input{
+    display: inline-block;
+    margin: auto;
+    width: 15em;
+}
+
+label{
+    display: inline-block;
+    margin: auto;
+    width: 8em;
+
+}
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* To see the outline of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}

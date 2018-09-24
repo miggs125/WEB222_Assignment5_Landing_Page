@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OA-Registration RONCANCIO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/normalize1.css" />
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
+    <script src="../js/registration.js"></script>
+</head>
+<body>
+  
+
+    <div class="container">
+                 
+            
+        <div id = "col-1">     
+            <img src="../img/logo.jpg" id="logo" alt="">
+            <div id="nav-text">
+                <h1> <span class="bigLetter">O</span>UTDOOR <span class="bigLetter">A</span>DVENTURES</h1>    
+                <nav>
+                    <ul>
+                        <li><a href="../hmtl/index.html" class="nav-link">Home</a></li>
+                        <li><a href="../hmtl/index.html#col-2" class="nav-link">Rock Climbing</a></li>
+                        <li><a href="../hmtl/index.html#slackline" class="nav-link">Slackline</a></li>
+                        <li><a href="../hmtl/index.html#hiking" class="nav-link">Hiking</a></li>
+                        <li><a href="../hmtl/registration.html" class="nav-link">Registration</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <header id="welcome">
+                <h2>WELCOME TO A WORLD OF ADVENTURE</h2>
+        </header>
+
+        <div id="col-2a">
+                
+            
+            <div id="registration">
+                <h1>Registration</h1>
+
+                <form name = "signup" action="https://httpbin.org/post" method="post" onsubmit="return validateForm();">
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required="required">
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required="required">
+
+                    <label for="unit">Unit Number: </label>
+                    <input type="text" id="unit" name="unit" required="required">
+
+                    <label for="streetNo">Street Number:</label>
+                    <input type="text" id="streetNo" name="streetNo" required="required">
+
+                    <label for="streetName">Street Name:</label>
+                    <input type="text" id="streetName" name="streetName" required="required">
+
+                    <label for="postalCode">Postal Code: </label>
+                    <input type="text" id="postalCode" name="postalCode" required="required">
+
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required="required">
+
+                    <label for="province">Province:</label>
+
+                    <select id="province" name="province">
+                        <option value=""  id="BC">British Columbia</option>
+                        <option value=""  id="=AB">Alberta</option>
+                        <option value=""  id="SK">Saskatchewan</option>
+                        <option value=""  id="MN">Manitoba</option>
+                        <option value=""  id="ON">Ontario</option>
+                        <option value=""  id="QC">Quebec</option>
+                        <option value=""  id="NS">Nova Scotia</option>
+                        <option value=""  id="NB">New Brunswick</option>
+                        <option value=""  id="PEI">Prince Edward Island</option>
+                            <option value="" id="NF">Newfoundland</option>
+                    </select>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required="required">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required="required">
+
+                    <label for="uname">User Name:</label>
+                    <input type="text" id="uname" name="uname" required="required">
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password"  name="password" required="required">
+
+                    <label for="matchPassword">Confirm Password</label>
+                    <input type="password" id="matchPassword" name="matchPassword" required="required">
+
+                    <input type="hidden" name="lastName" id="lastName" value="roncancio" /> 
+                    <input type="hidden" name="studentId" id="studentId" value="151091170" />
+
+                    <input type="submit" name="submit" value="Sign me up!" id="submit">
+
+                </form>
+            </div>
+            <footer>
+                    <p>Miguel Roncancio 2018</p>
+                </footer>
+        </div>
+
+        <div id="col-3">
+            <div id="wrapper">
+                <p id="error">
+
+                </p>
+            </div>
+            
+
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
